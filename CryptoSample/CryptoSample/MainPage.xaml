@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CryptoSample"
+             x:Class="CryptoSample.MainPage">
+
+    <StackLayout>
+        <Label Text="UserName"></Label>
+        <Entry Placeholder="Enter user name"   x:Name="nameUserName"></Entry>
+        <Label Text="Password"></Label>
+        <Entry Placeholder="Enter password"   x:Name="namePassword"></Entry>
+        <Button Text="Login" x:Name="nameLogin"   Clicked="nameLogin_Clicked" ></Button>
+        <Label Text="" x:Name="lblResult"></Label>
+    </StackLayout>
+
+</ContentPage>
